@@ -1,4 +1,4 @@
-- 👋 Hi there! I'm a passionate C# Software Engineer at Microsoft, actively contributing to the OData library and Microsoft Graph. I love solving complex problems through coding and continuously learning new technologies. Let's build something amazing together!
+- 👋 Hi there! I'm a passionate C# Software Engineer at Microsoft, actively contributing to the OData library and Microsoft Graph. I love solving complex problems through coding (Code Efficiency & Performance) and continuously learning new technologies. Let's build something amazing together!
 
 - 🔭 **Current Focus:** Enhancing the OData library and exploring advanced C# features.
 - 🌱 **Learning:** Deep diving into cloud computing and microservices architecture.
