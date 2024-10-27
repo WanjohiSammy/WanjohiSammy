@@ -3,7 +3,7 @@
 - 🔭 **Current Focus:** Enhancing the OData library and exploring advanced C# features.
 - 🌱 **Learning:** Deep diving into cloud computing and microservices architecture.
 - 💬 **Ask me about:** C#, OData, .NET, and software architecture.
-- ⚡ **Fun fact:** I enjoy hiking and exploring new places in my free time.
+- ⚡ **Fun fact:** I enjoy riding bicycle and exploring new places in my free time.
 - 📫 **How to reach me:** sam.wanjohi94@gmail.com or linkedIn: https://www.linkedin.com/in/wanjohi-samuel
 
 <!---
