@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Samuel Wanjohi, Software and AI Engineer at Microsoft">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#121a33"/>
+      <stop offset="1" stop-color="#1b1440"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4cc9f0"/>
+      <stop offset="0.5" stop-color="#7b6cff"/>
+      <stop offset="1" stop-color="#f72585"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7b6cff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7b6cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4cc9f0" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#4cc9f0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <clipPath id="type">
+      <rect x="60" y="214" width="840" height="34">
+        <animate attributeName="width" values="0;840;840" keyTimes="0;0.55;1" dur="6s" begin="0.8s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <style>
+      .name{font:800 60px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#ffffff;letter-spacing:-1px}
+      .role{font:600 22px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#c9d1e8}
+      .code{font:500 19px 'Cascadia Code',Consolas,'SF Mono',Menlo,monospace;fill:#9fb3d9}
+      .kw{fill:#7b6cff}.fn{fill:#4cc9f0}.str{fill:#f9a8d4}
+      .chip{font:600 14px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e6ebff}
+      .stat{font:800 30px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#ffffff}
+      .lbl{font:600 12px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#8f9cc0;letter-spacing:1.5px}
+      .fade{animation:in 0.9s ease-out both}
+      .d1{animation-delay:.1s}.d2{animation-delay:.35s}.d3{animation-delay:.6s}.d4{animation-delay:1.2s}.d5{animation-delay:1.45s}.d6{animation-delay:1.7s}
+      @keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+      .float{animation:float 9s ease-in-out infinite}
+      @keyframes float{0%,100%{transform:translate(0,0)}50%{transform:translate(-30px,18px)}}
+      .float2{animation:float2 11s ease-in-out infinite}
+      @keyframes float2{0%,100%{transform:translate(0,0)}50%{transform:translate(26px,-14px)}}
+      .cursor{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+  <circle class="float" cx="1010" cy="70" r="230" fill="url(#glow1)"/>
+  <circle class="float2" cx="760" cy="300" r="190" fill="url(#glow2)"/>
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
+
+  <g class="fade d1"><text x="60" y="78" class="lbl">HELLO, WORLD — I'M</text></g>
+  <g class="fade d2"><text x="58" y="140" class="name">Samuel Wanjohi</text></g>
+  <g class="fade d3"><text x="60" y="180" class="role">Software &amp; AI Engineer @ Microsoft  ·  OData  ·  Microsoft Graph  ·  Nairobi 🇰🇪</text></g>
+
+  <g clip-path="url(#type)">
+    <text x="60" y="238" class="code"><tspan class="kw">await</tspan> samuel.<tspan class="fn">BuildAsync</tspan>(api =&gt; api.<tspan class="fn">Faster</tspan>().<tspan class="fn">Safer</tspan>().<tspan class="fn">WithAgents</tspan>(<tspan class="str">"RAG"</tspan>));</text>
+  </g>
+
+  <!-- stat cards -->
+  <g transform="translate(890,92)"><g class="fade d4">
+    <rect width="250" height="52" rx="12" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="18" y="35" class="stat">340+</text>
+    <text x="112" y="23" class="lbl">COMMITS TO</text>
+    <text x="112" y="39" class="lbl">ODATA .NET</text>
+  </g></g>
+  <g transform="translate(890,154)"><g class="fade d5">
+    <rect width="250" height="52" rx="12" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="18" y="35" class="stat">2,600+</text>
+    <text x="134" y="23" class="lbl">TPS ON</text>
+    <text x="134" y="39" class="lbl">M-PESA</text>
+  </g></g>
+  <g transform="translate(890,216)"><g class="fade d6">
+    <rect width="250" height="52" rx="12" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="18" y="35" class="stat">8+ yrs</text>
+    <text x="134" y="23" class="lbl">BUILDING</text>
+    <text x="134" y="39" class="lbl">AT SCALE</text>
+  </g></g>
+
+  <g transform="translate(60,270)"><g class="fade d4">
+    <rect width="96" height="28" rx="14" fill="#7b6cff" fill-opacity="0.22" stroke="#7b6cff" stroke-opacity="0.6"/>
+    <text x="48" y="19" text-anchor="middle" class="chip">C# · .NET</text>
+    <rect x="106" width="80" height="28" rx="14" fill="#4cc9f0" fill-opacity="0.18" stroke="#4cc9f0" stroke-opacity="0.6"/>
+    <text x="146" y="19" text-anchor="middle" class="chip">Azure</text>
+    <rect x="196" width="118" height="28" rx="14" fill="#f72585" fill-opacity="0.16" stroke="#f72585" stroke-opacity="0.6"/>
+    <text x="255" y="19" text-anchor="middle" class="chip">AI Agents · RAG</text>
+    <rect x="324" width="160" height="28" rx="14" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.3"/>
+    <text x="404" y="19" text-anchor="middle" class="chip">Distributed Systems</text>
+  </g></g>
+</svg>
